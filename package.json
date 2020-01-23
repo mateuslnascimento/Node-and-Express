@@ -1,0 +1,31 @@
+{
+  "name": "nodejsandexpress4",
+  "version": "1.0.0",
+  "description": "Tutorial based on course \"Building Web Applications with Node.js and Express 4.0\"  of Jonathan Mills provided by Pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon $env:DEBUG='app';node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuslnascimento/Node-and-Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateuslnascimento/Node-and-Express/issues"
+  },
+  "homepage": "https://github.com/mateuslnascimento/Node-and-Express#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "chalk": "^3.0.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
