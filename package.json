@@ -21,14 +21,23 @@
     "bootstrap": "^4.4.1",
     "chalk": "^3.0.0",
     "debug": "^4.1.1",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0",
     "nodemon": "^2.0.2"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500"
   }
 }
